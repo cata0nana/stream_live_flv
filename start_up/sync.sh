@@ -8,7 +8,9 @@ cd /root/lia_pro/
 git reset --hard
 git pull origin main
 ls -l /etc/localtime
-timedatectl set-timezone Africa/Algiers
+#timedatectl set-timezone Africa/Algiers
+rm -rf /etc/localtime
+ln -s /usr/share/zoneinfo/Africa/Algiers /etc/localtime
 ls -l /etc/localtime
 # rm xx.mp4
 # bash -c "mega-get https://mega.nz/file/lvxAxbzJ#SLA8Gcj0tKoC7vANTPeZ5uXiFgKLk6skpHH6LUnKOgA"
