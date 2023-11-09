@@ -7,6 +7,7 @@ pwd
 cd /root/lia_pro/
 git reset --hard
 git pull origin main
+ls -l /etc/localtime
 
 # rm xx.mp4
 # bash -c "mega-get https://mega.nz/file/lvxAxbzJ#SLA8Gcj0tKoC7vANTPeZ5uXiFgKLk6skpHH6LUnKOgA"
