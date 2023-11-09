@@ -12,6 +12,7 @@ ls -l /etc/localtime
 rm -rf /etc/localtime
 ln -s /usr/share/zoneinfo/Africa/Algiers /etc/localtime
 ls -l /etc/localtime
+ls /usr/share/fonts/truetype/ttf-bitstream-vera/
 # rm xx.mp4
 # bash -c "mega-get https://mega.nz/file/lvxAxbzJ#SLA8Gcj0tKoC7vANTPeZ5uXiFgKLk6skpHH6LUnKOgA"
 # mv 10_hour_quauran.mp4  xx.mp4
